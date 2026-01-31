@@ -1,0 +1,39 @@
+{
+  "name": "trend-insight-bot",
+  "version": "1.0.0",
+  "description": "智能趋势分析机器人，结合多平台数据进行深度分析",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "ai",
+    "trends",
+    "insights",
+    "analytics",
+    "social-media",
+    "data-analysis"
+  ],
+  "author": "JMOKSZ",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.0",
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^21.5.0",
+    "moment": "^2.29.4",
+    "nodemailer": "^6.9.7",
+    "ejs": "^3.1.9",
+    "pdfkit": "^0.14.0",
+    "@anthropic-ai/sdk": "^0.15.0",
+    "sentiment": "^4.0.0",
+    "natural": "^6.5.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}
